@@ -25,16 +25,17 @@ This repository contains the implementation of Domain Driven Design and Clear Ar
 10. Simple and clean admin template for starter
 
 # 📁 Folder Structures:
-![Solution](https://user-images.githubusercontent.com/14342773/136995798-70c684d1-cea8-4b86-b45f-c768a6fd4265.PNG)
+![image](https://user-images.githubusercontent.com/14342773/188265638-ea1ebeb6-b6ee-4913-bfa0-39e71f200c8b.png)
+
 
 ## 📂 src/ServerApp:
   Will contain all the projects of the server side app and will look like as follows:
-  ![ServerFolder](https://user-images.githubusercontent.com/14342773/123045708-094b4500-d41d-11eb-9db3-d8cbfb7b9a31.PNG)
+  ![tempsnip](https://user-images.githubusercontent.com/14342773/188265763-6f5416d9-e2a4-407e-9315-39d2e2688576.png)
 
 ### 📂 src/ServerApp/Core:
   Core folder contains the projects related to the application core funcationalities like Domain Logic and Application Logic. This folder is the heart of the server app.
   
-  ![CoreFolder](https://user-images.githubusercontent.com/14342773/123046128-88d91400-d41d-11eb-905a-d680d264f8a1.PNG)
+  ![tempsnip](https://user-images.githubusercontent.com/14342773/188265917-93853b16-e284-4901-acf3-ee0c87c3dd55.png)
 
   
 #### 📝 EmployeeManagement.Domain Project: 
@@ -47,6 +48,9 @@ This repository contains the implementation of Domain Driven Design and Clear Ar
 
 This will not depend on any other project. This is fully independent.
 
+![tempsnip](https://user-images.githubusercontent.com/14342773/188266015-427309e8-5eef-453a-9a4f-593dabdf155a.png)
+
+
 #### 📝 EmployeeManagement.Application Project:
   This is application's **Application Layer** which will contain:
    1. Appplication Logic
@@ -57,7 +61,8 @@ This will not depend on any other project. This is fully independent.
   
   It will only depend on Domain project aka **Domain Layer.**
   
-  ![Application](https://user-images.githubusercontent.com/14342773/136792482-c61660a2-af4e-4b85-940c-b1370b7e96f9.PNG)
+ ![tempsnip](https://user-images.githubusercontent.com/14342773/188266095-717a6adc-30f8-4901-b42a-a3abbe829cf7.png)
+
 
   
 ### 📂 src/ServerApp/Infrastructure:
@@ -68,3 +73,6 @@ This will not depend on any other project. This is fully independent.
   
 ### 📂 src/ServerApp/Presentation:
   This folder will contain all the REST API projects which is the **PresentationLayer** of the project.
+  
+  ![tempsnip](https://user-images.githubusercontent.com/14342773/188266148-712f2608-ae3b-461e-af0c-470ebb57a5f3.png)
+
